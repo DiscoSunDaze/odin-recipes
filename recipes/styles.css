@@ -1,5 +1,82 @@
+/* Styles for Recipe Pages */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Headings */
 .heading {
+    color: rgb(21, 214, 140);
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.subheading {
+    color: yellow;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+/* Image style */
+img {
+    display: block;
+    max-width: 80%;
+    margin: 20px auto;
+    height: auto;
+}
+
+/* Backlink styling */
+#backlink {
+    display: inline-block;
+    background-color: #333;
     color: red;
-    font-size: 16px;
-    font-weight: bold;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#backlink:hover {
+    background-color: #555;
+}
+
+/* Visted links */
+#backlink:visited {
+    color: #b57edc;
+    background-color: #333;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+/* Creates the container for the two sections below */
+.section-container {
+    font-size: 0;
+    width: 750px;
+    margin: 40px auto;
+    text-align: left;
+    font-size: 18px;
+}
+
+/* Creates two sections (containers within the parent container) using inline-block*/
+.section {
+    font-size: 18px;
+    display: inline-block;
+    vertical-align: top;
+    width: 350px;
+    margin-right: 50px;
+}
+
+.section:last-child {
+    margin-right: 0;
 }
