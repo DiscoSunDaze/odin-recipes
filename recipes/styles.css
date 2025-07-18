@@ -66,9 +66,9 @@ img {
 
 .flex-container div {
     background: #555;
-    width: 750px;
+    width: 400px;
     margin: 40px auto;
-    padding-left: 100px;
+    padding-left: 30px;
     text-align: left;
     font-size: 18px;
 }
